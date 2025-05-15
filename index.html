@@ -8,30 +8,33 @@
     <title>HOME PAGE</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="start">
-            <img src="images/profile.jpg" alt="profile">
-            <span>Victor Hugo Ferreira</span>
-        </div>
+        <img src="images/profile.jpg" alt="profile">
+        <span>Victor Hugo Ferreira</span>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="">Chamber</a>
-        <a href="">Final</a>
-        <a href="">GitHub Profile</a>
-        <a href="">LinkedIn</a>
+        <div class="navigation">
+            <a href="index.html" title="Home">Home</a>
+            <a href="#" title="Chamber">Chamber</a>
+            <a href="#" title="Final">Final</a>
+            <a href="#" title="GitHub Profile">GitHub Profile</a>
+            <a href="#" title="LinkedIn">LinkedIn</a>
+        </div>
+        <div type="button" id="menu"></div>
     </nav>
     <main>
         <h1>HOME</h1>
-        <div class="container">  
+        <div class="container">
             <section class="card">
                 <h2>Course Work</h2>
-                <div class="course">
+                <div class="work">
                     <ul>
                         <li></li>
                         <li></li>
@@ -45,20 +48,29 @@
                 <h2>Sergipe, Brazil</h2>
                 <div class="country">
                     <figure>
-                        <img src="images/profile.jpg" alt="profile" width="200">
-                        <figcaption>Beach</figcaption>
+                        <img src="images/island.jpg" alt="island" width="400">
+                        <figcaption>Valentine Island</figcaption>
                     </figure>
                 </div>
             </section>
         </div>
-        <div class="container2">
+        <div class="certificate">
             <section class="card">
                 <h2>Web and Computer Programming Certificate</h2>
+                <div class="filtered">
+                    <a href="#" id="all">ALL Courses</a>
+                    <a href="#" id="cse">CSE Courses</a>
+                    <a href="#" id="wdd">WDD Courses</a>
+                </div>
+                <p id="creditTotal" class="credit-display"></p>
+                <div class="container-courses" id="coursesContainer">
+                    <!-- Cards here -->
+                </div>
             </section>
         </div>
     </main>
     <footer>
-        <p>©<span id="currentYear"></span>🌴 Victor Hugo Dos Santos Ferreira 🌴 Brazil</p>
+        <p><span id="currentYear"></span>🌴 Victor Hugo Dos Santos Ferreira 🌴 Brazil <span><img class="flag" src="images/flag_brazil.jpg" alt="Brazil"></span></p>
         <p class="highlight" id="lastModified">Last Modification : 29/09/2000 10:26pm</p>
     </footer>
 </body>
