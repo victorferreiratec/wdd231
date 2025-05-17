@@ -93,13 +93,12 @@ const allBtn = document.getElementById('all');
 const wddBtn = document.getElementById('wdd');
 const cseBtn = document.getElementById('cse');
 
-// Função para exibir subject + number
 function displayCourses(courseList) {
     container.innerHTML = '';
 
     courseList.forEach(course => {
         const courseItem = document.createElement('div');
-        courseItem.textContent = `${course.subject} ${course.number}`;
+        courseItem.textContent = `${course.subject} ${course.number} ${course.completed ? ' ✓' : ''}`;
         courseItem.classList.add('course-item');
         courseItem.style.backgroundColor = course.completed ? 'var(--accent1-color)' : 'var(--accent2-color)';
         courseItem.style.color = 'white';
@@ -107,15 +106,19 @@ function displayCourses(courseList) {
         courseItem.style.margin = '0.5rem';
         courseItem.style.borderRadius = '0.5rem';
         courseItem.style.fontWeight = 'bold';
-        courseItem.style.fontSize = 'large';
+        courseItem.style.fontSize = 'x-large';
         courseItem.style.width = '100%';
         courseItem.style.textAlign = 'center';
         container.appendChild(courseItem);
     });
 
+    const totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
+
+    const creditCount = document.getElementById('creditCount');
+    creditCount.textContent = `The total number of course listed below is ${totalCredits}`;
 }
 
-// Botões de filtro
+// Filter Buttons 
 allBtn.addEventListener('click', (e) => {
     e.preventDefault();
     displayCourses(courses);
@@ -133,5 +136,6 @@ cseBtn.addEventListener('click', (e) => {
     displayCourses(filtered);
 });
 
-// Exibe todos inicialmente
+
 displayCourses(courses);
+

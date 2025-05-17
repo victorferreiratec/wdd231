@@ -184,6 +184,14 @@ figcaption{
 	font-weight: 700;
 }
 
+#creditCount{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
 .container-courses {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
