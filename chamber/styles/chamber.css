@@ -407,7 +407,7 @@ body.dark-mode .business-cards-container.list-view-active .business-item h3 {
 
 /* Footer area */
 .site-footer {
-    background-color: #777; /* Light gray from design */
+    background-color: var(--accent1-color);
     color: white; /* Ensure text visibility */
     padding: 20px;
     font-size: 1rem;
@@ -429,9 +429,22 @@ body.dark-mode .site-footer {
     text-align: left;
 }
 
+body.dark-mode .footer-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
 .footer-content h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    color: black;
+}
+
+body.dark-mode .footer-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 5px;
     color: white;
 }
 
@@ -439,7 +452,7 @@ body.dark-mode .site-footer {
     font-size: 0.9rem;
     line-height: 1.4;
     margin-bottom: 5px;
-    color: white;
+    color: black;
 }
 
 .social-media {
@@ -474,7 +487,7 @@ body.dark-mode .social-media a {
 #current-year-footer,
 #last-modified-date-footer {
     font-weight: bold;
-    color: #f7a961; /* Orange/peach color for highlights, adaptingtheme accents */
+    color: red; /* Orange/peach color for highlights, adaptingtheme accents */
 }
 
 /* Responsive Design */
