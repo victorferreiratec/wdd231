@@ -5,116 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Aracaju - Chamber of commerce">
     <meta name="author" content="Victor Hugo Ferreira">
+
     <meta property="og:title" content="Aracaju - Chamber of commerce">
     <meta property="og:description" content="Come and discover and experience the most typical trade in the world!">
     <meta property="og:image" content="https://victorferreiratec.github.io/wdd231/images/chamber_logo.png">
     <meta property="og:URL" content="https://victorferreiratec.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
+
     <title>Aracaju - Chamber of commerce</title>
+
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="styles/chamber.css">
-    <script src="scripts/chamber.js" defer></script>
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-responsive.css">
+
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
     <script src="../scripts/getdates.js" defer></script>
+
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <div class="header">
-                <h1>Aracaju - Chamber of commerce</h1>
-            </div>
-            <img class="logo-img" src="images/chamber_logo.png" alt="logo" width="150">
-            <nav>
-                <div class="navigation">
-                    <a href="index.html" title="Home">Home</a>
-                    <a href="#" title="Discover">Discover</a>
-                    <a href="#" title="Directory">Directory</a>
-                    <a href="#" title="Join">Join</a>
-                    <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
-                        <i class="fas fa-adjust"></i>
-                    </button>
+        <div class="header-container">
+            <div class="logo-title">
+                <img src="images/chamber_logo.png" alt="Aracaju Chamber Logo" class="logo-img">
+                <div class="title-box">
+                    <span class="aracaju-title">Aracaju</span>
+                    <span class="chamber-subtitle">chamber of commerce</span>
                 </div>
-                <button type="button" id="menu"></button>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul><button id="menu-toggle" aria-label="Toggle Dark/Light Mode"><span class="darkmode-toggle">☾</span>
+                </button>
             </nav>
         </div>
-    <div class="hero">
-        <img src="images/island.jpg" alt="hero">
-        <div class="hero-text">Aracaju</div>
-        <button class="keynote-tickets-btn">Keynote Tickets</button>
-    </div>
     </header>
     <main>
-        <div class="main-content-grid">
-            <section class="info-card events-card">
-                <div class="card-header">
-                    <h2>Events</h2>
-                </div>
-                <div class="card-content">
-                    </div>
-            </section>
-            <section class="info-card weather-card">
-                <div class="card-header">
-                    <h2>Current Weather</h2>
-                </div>
-                <div class="card-content weather-current">
-                    <div class="weather-icon-temp">
-                        <img id="weather-icon-display" src="" alt="Weather icon">
-                        <p><span id="current-temp-value"></span>&deg;C</p>
-                    </div>
-                    <figcaption id="weather-desc-display"></figcaption>
-                    <p>High: <span id="current-high"></span>&deg;</p>
-                    <p>Low: <span id="current-low"></span>&deg;</p>
-                    <p>Humidity: <span id="current-humidity"></span>%</p>
-                    <p>Sunrise: <span id="current-sunrise"></span></p>
-                    <p>Sunset: <span id="current-sunset"></span></p>
-                </div>
-            </section>
+        <h1 class="page-title">Directory</h1>
 
-            <section class="info-card forecast-card">
-                <div class="card-header">
-                    <h2>Weather Forecast</h2>
-                </div>
-                <div class="card-content weather-forecast">
-                    <p>Today: <strong id="forecast-today-temp">--&deg;C</strong></p>
-                    <p>Wednesday: <strong id="forecast-wednesday-temp">--&deg;C</strong></p>
-                    <p>Thursday: <strong id="forecast-thursday-temp">--&deg;C</strong></p>
-                </div>
-            </section>
-        </div>
-        <section class="directory-listing" id="directory-listing-section">
-            <div class="view-controls">
-                <button id="grid-view-btn" class="view-toggle-btn active" aria-label="Show Grid View"><i class="fas fa-th-large"></i></button>
-                <button id="list-view-btn" class="view-toggle-btn" aria-label="Show List View"><i class="fas fa-list"></i></button>
-            </div>
-            <div id="business-cards-container" class="business-cards-container">
-            </div>
+        <section class="business-view-toggle">
+            <button id="gridViewBtn" class="active">Grid View</button>
+            <button id="listViewBtn">List View</button>
+        </section>
+        <section class="business-cards grid-view">
+            <!-- Member cards will be injected here by JS -->
         </section>
     </main>
-     <footer class="site-footer">
-        <div class="footer-content">
-            <div class="contact-info">
-                <h3>Aracaju - Chamber of Commerce</h3>
-                <p>Rua José Francisco, Ponto Novo, 100</p>
-                <p>Aracaju, Sergipe, Brazil</p>
-                <p>info@aracajuchamber.org</p>
-                <p>+55 (79) 98555-2300</p>
-            </div>
-            <div class="social-media">
-                <a href="#" aria-label="YouTube"><i class="fab fa-youtube-square"></i></a>
-                <a href="#" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="project-info">
-                <p>CHAMBER PROJECT</p>
-                <p>🌴 Victor Hugo Dos Santos Ferreira 🌴 Brazil </p>
-                <p>© <span id="current-year-footer"></span> Aracaju - Chamber of Commerce</p>
-                <p>Last Modification: <span id="last-modified-date-footer"></span></p>
-            </div>
+    <footer>
+        <div class="footer-box left">
+            <p>Aracaju - Chamber of Commerce</p>
+            <p>Rua José Francisco, Ponto Novo, 100</p>
+            <p>Aracaju, SE - 49091-710</p>
+            <p>info@aracajuchamber.org</p>
+            <p>+55 (79) 3226-2300</p>
+        </div>
+        <div class="footer-box center">
+            <p>
+                <a href="https://www.facebook.com/victor.hugo.ferreira.574729" target="_blank">
+                    <img src="images/facebook_icon.svg" alt="Facebook" width="40" height="40">
+                </a>
+                <a href="https://www.instagram.com/victorr_h.ferreira/" target="_blank">
+                    <img src="images/instagram_icon.svg" alt="Instagram" width="40" height="40">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="images/youtube_icon.svg" alt="YouTube" width="40" height="40">
+                </a>
+            </p>
+        </div>
+        <div class="footer-box right">
+            <p>WDD231 Class Project</p>
+            <p>🌴 Victor Hugo Dos Santos Ferreira 🌴 Brazil</p>
+            <p>&copy; <span id="currentYear"></span> Aracaju - Chamber of Commerce</p>
+            <p id="lastModified"></p>
         </div>
     </footer>
 </body>

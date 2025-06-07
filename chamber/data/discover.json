@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Itu Historic Center",
+        "address": "Praça Padre Miguel, Centro, Itu, SP",
+        "description": "The heart of Itu, featuring colonial architecture, charming streets, and vibrant local culture.",
+        "image": "images/itu-historic-center.webp"
+    },
+    {
+        "name": "Itu City Park",
+        "address": "Av. Itu 400 Anos, Itu, SP",
+        "description": "A large green space with walking trails, playgrounds, and picnic areas for families and visitors.",
+        "image": "images/itu-city-park.webp"
+    },
+    {
+        "name": "Republic Square",
+        "address": "Praça da República, Centro, Itu, SP",
+        "description": "A lively square surrounded by shops, cafes, and historic landmarks, perfect for a stroll.",
+        "image": "images/republic-square.webp"
+    },
+    {
+        "name": "Itu Giant Phone",
+        "address": "Praça Padre Miguel, Centro, Itu, SP",
+        "description": "A quirky and famous oversized phone booth, a must-see photo spot in Itu.",
+        "image": "images/giant-phone.webp"
+    },
+    {
+        "name": "Museu Republicano",
+        "address": "Rua Barão do Itaim, 67, Centro, Itu, SP",
+        "description": "A museum dedicated to the history of the Brazilian Republic, located in a beautiful historic building.",
+        "image": "images/museu-republicano.webp"
+    },
+    {
+        "name": "Itu Cathedral",
+        "address": "Praça Padre Anchieta, Centro, Itu, SP",
+        "description": "A stunning cathedral with impressive architecture and a peaceful atmosphere.",
+        "image": "images/itu-cathedral.webp"
+    },
+    {
+        "name": "Varvito Park",
+        "address": "Av. do Parque, Itu, SP",
+        "description": "A geological park showcasing unique rock formations and educational trails.",
+        "image": "images/varvito-park.webp"
+    },
+    {
+        "name": "Itu Water Tower",
+        "address": "Av. Prudente de Moraes, Itu, SP",
+        "description": "An iconic water tower and symbol of Itu, offering great views and photo opportunities.",
+        "image": "images/water-tower.webp"
+    }
+]
