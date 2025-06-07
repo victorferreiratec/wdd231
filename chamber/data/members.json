@@ -6,7 +6,8 @@
     "description": "Supermarket and hypermarket chain founded in Sergipe, currently part of the Chilean group Cencosud.",
     "membershipLevel": 3,
     "image": "logo_gbarbosa.svg",
-    "email": "contato@gbarbosa.com.br"
+    "email": "contato@gbarbosa.com.br",
+    "phone": "+55 79 3216-7000"
   },
   {
     "name": "Ferreira Costa",
@@ -15,7 +16,8 @@
     "description": "Brazilian chain of stores selling construction materials, finishes, home decor, gardening, and DIY supplies.",
     "membershipLevel": 2,
     "image": "logo_fc.jpeg",
-    "email": "sac@ferreiracosta.com"
+    "email": "sac@ferreiracosta.com",
+    "phone": "+55 79 3305-2000"
   },
   {
     "name": "Porto Farol",
@@ -24,7 +26,8 @@
     "description": "Versatile and well-equipped venue for various events, with a capacity for over 2000 people.",
     "membershipLevel": 1,
     "image": "porto-farol.png",
-    "email": "eventos@portofarol.com.br"
+    "email": "eventos@portofarol.com.br",
+    "phone": "+55 79 99999-1234"
   },
   {
     "name": "Centro de Convenções AM Malls",
@@ -33,7 +36,8 @@
     "description": "Main venue for small, medium, and large-scale events in Sergipe.",
     "membershipLevel": 3,
     "image": "centro-convencoes.png",
-    "email": "contato@cconvencoesammalls-se.com.br"
+    "email": "contato@cconvencoesammalls-se.com.br",
+    "phone": "+55 79 3234-4567"
   },
   {
     "name": "Galeria de Artes Álvaro Santos",
@@ -42,7 +46,8 @@
     "description": "Public art gallery featuring exhibitions from local, national, and international artists.",
     "membershipLevel": 2,
     "image": "artes-logo.png",
-    "email": "cultura@aracaju.se.gov.br"
+    "email": "cultura@aracaju.se.gov.br",
+    "phone": "+55 79 3179-1308"
   },
   {
     "name": "DESO – Sergipe Sanitation Company",
@@ -51,7 +56,8 @@
     "description": "Company responsible for basic sanitation in the state of Sergipe.",
     "membershipLevel": 1,
     "image": "deso-logo.png",
-    "email": "atendimento@deso-se.com.br"
+    "email": "atendimento@deso-se.com.br",
+    "phone": "+55 79 2106-4700"
   },
   {
     "name": "Sebrae Sergipe",
@@ -60,6 +66,7 @@
     "description": "Support service for micro and small businesses, offering consulting and training.",
     "membershipLevel": 3,
     "image": "sebrae-logo.jpeg",
-    "email": "atendimento@se.sebrae.com.br"
+    "email": "atendimento@se.sebrae.com.br",
+    "phone": "+55 79 2106-7700"
   }
 ]

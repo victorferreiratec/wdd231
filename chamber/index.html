@@ -9,21 +9,23 @@
     <meta property="og:title" content="Aracaju - Chamber of commerce">
     <meta property="og:description" content="Come and discover and experience the most typical trade in the world!">
     <meta property="og:image" content="https://victorferreiratec.github.io/wdd231/images/chamber_logo.png">
-    <meta property="og:url" content="https://victorferreiratec.github.io/wdd231/chamber/directory.html">
+    <meta property="og:URL" content="https://victorferreiratec.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
 
     <title>Aracaju - Chamber of commerce</title>
 
     <link rel="stylesheet" href="../styles/normalize.css">
-    <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-responsive.css">
 
-    <script src="scripts/members.js" defer></script>
+    
+    <script src="scripts/weather.js" defer></script>
     <script src="scripts/menu.js" defer></script>
     <script src="../scripts/getdates.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+
 
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
@@ -44,8 +46,8 @@
             </div>
             <nav class="main-nav">
                 <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                     <li><a href="discover.html">Discover</a></li>
                 </ul><button id="menu-toggle" aria-label="Toggle Dark/Light Mode"><span class="darkmode-toggle">☾</span>
@@ -54,14 +56,31 @@
         </div>
     </header>
     <main>
-        <h1 class="page-title">Directory</h1>
-
-        <section class="business-view-toggle">
-            <button id="gridViewBtn" class="active">Grid View</button>
-            <button id="listViewBtn">List View</button>
+       <section class="hero-section">
+            <h2 class="visually-hidden">Aracaju - Chamber Hero</h2>
+            <img src="images/island.jpg" alt="Chamber Hero" class="hero-img">
         </section>
-        <section class="business-cards grid-view">
-            <!-- Member cards will be injected here by JS -->
+        <h1 class="page-title">Home</h1>
+
+        <section class="main-cards">
+            <h2 class="visually-hidden">Aracaju - Chamber Hero</h2>
+            <div class="card card-large">
+                <div class="card-title">Events</div>
+                <div class="card-body">
+                    <p>Upcoming Chamber Events will be listed here.</p>
+                </div>
+            </div>
+            <div class="card card-small" id="current-weather-card">
+                <div class="card-title">Current Weather</div>
+                <div class="card-body"></div>
+            </div>
+            <div class="card card-small" id="forecast-card">
+                <div class="card-title">Weather Forecast</div>
+                <div class="card-body"></div>
+            </div>
+        </section>
+        <section class="business-cards">
+            <h2 class="visually-hidden">Itu Chamber Hero</h2>
         </section>
     </main>
     <footer>
