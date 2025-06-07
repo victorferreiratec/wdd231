@@ -487,7 +487,7 @@ body.dark-mode .social-media a {
 #current-year-footer,
 #last-modified-date-footer {
     font-weight: bold;
-    color: red; /* Orange/peach color for highlights, adaptingtheme accents */
+    color: rgba(255, 3, 3, 0.877); /* Orange/peach color for highlights, adaptingtheme accents */
 }
 
 /* Responsive Design */
