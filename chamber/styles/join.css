@@ -1,0 +1,167 @@
+.join-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 600px;
+    border: 2px solid var(--color1);
+    background-color: var(--color4);
+    border-radius: 1rem;
+}
+
+.join-section p {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.join-form {
+    background: var(--color4);
+    border-radius: 1rem;
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+
+.join-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: var(--color5);
+    gap: 0.3rem;
+}
+
+.join-form input[type="text"],
+.join-form input[type="email"],
+.join-form input[type="tel"],
+.join-form select,
+.join-form textarea {
+    padding: 0.7rem 1rem;
+    border: 1px solid var(--color1);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    transition: border-color 0.2s;
+}
+
+.join-form input:focus,
+.join-form select:focus,
+.join-form textarea:focus {
+    border-color: var(--color1);
+    outline: none;
+}
+
+.join-form textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.join-form input[type="submit"],
+.membership-card button,
+.thankyou-card-button {
+    background: var(--color1);
+    color: var(--color4);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.9rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px 8px var(--color7);
+}
+
+.join-form input[type="submit"]:hover,
+.join-form input[type="submit"]:focus,
+.membership-card button:hover,
+.membership-card button:focus,
+.thankyou-card-button:hover,
+.thankyou-card-button:focus {
+    background: var(--color3);
+    color: var(--color5);
+    border: 2px solid var(--color1);
+}
+
+.thankyou-card-button {
+    text-decoration: none;
+}
+
+.membership-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem auto 0 auto;
+    max-width: 600px;
+}
+
+.membership-card {
+    background: var(--color3);
+    border-radius: 1rem;
+    padding: 1.5rem 1.2rem;
+    text-align: center;
+    border: 2px solid var(--color7);
+}
+
+.membership-card h3 {
+    color: var(--color5);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+
+dialog {
+    border-radius: 1rem;
+    border: 1.5px solid var(--color1);
+    padding: 2rem 2.5rem;
+    max-width: 400px;
+    position: relative;
+    padding-top: 2.5em;
+}
+
+dialog::backdrop {
+    backdrop-filter: blur(2px);
+}
+
+.dialog .close-dialog {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--color5);
+    z-index: 10;
+}
+
+dialog .close-dialog:focus {
+    outline: 2px solid var(--color3);
+}
+
+.thankyou-section {
+    background-color: var(--color4);
+    border: 2px solid var(--color1);
+    border-radius: 1rem;
+    padding: 2.5rem 2rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.thankyou-section h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.thankyou-info {
+    border-radius: 0.7rem;
+    padding: 1.2rem 1rem;
+    margin: 1.5rem 0;
+    text-align: left;
+    font-size: 1.05rem;
+}

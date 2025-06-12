@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Come and discover and experience the most typical trade in the world!">
+    <meta name="author" content="Victor Hugo Ferreira">
+
+    <meta property="og:title" content="Aracaju - Chamber of commerce">
+    <meta property="og:description" content="Come and discover and experience the most typical trade in the world!">
+    <meta property="og:image" content="https://victorferreiratec.github.io/wdd231/chamber/images/chamber_logo.png">
+    <meta property="og:url" content="https://victorferreiratec.github.io/wdd231/chamber/">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+
+    <title>Thank you | Aracaju Chamber of commerce</title>
+
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-responsive.css">
+
+    
+    <script src="scripts/menu.js" defer></script>
+    <script src="../scripts/getdates.js" defer></script>
+    <script src="scripts/thank-you.js" defer></script>
+
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-title">
+                <img src="images/chamber_logo.png" alt="Aracaju Chamber Logo" class="logo-img">
+                <div class="title-box">
+                    <span class="aracaju-title">Aracaju</span>
+                    <span class="chamber-subtitle">chamber of commerce</span>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html" class="active">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+                <button id="menu-toggle" aria-label="Toggle Dark/Light Mode"><span class="darkmode-toggle">☾</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="thankyou-section">
+            <h1>Thank You for Joining!</h1>
+            <p>Your application has been received. We appreciate your interest in the Itu Chamber of Commerce.</p>
+            <h2>Submitted Information</h2>
+            <div class="thankyou-info">
+                <p><strong>First Name:</strong> <span id="outFirstName"></span></p>
+                <p><strong>Last Name:</strong> <span id="outLastName"></span></p>
+                <p><strong>Email:</strong> <span id="outEmail"></span></p>
+                <p><strong>Mobile Number:</strong> <span id="outMobile"></span></p>
+                <p><strong>Business/Organization Name:</strong> <span id="outOrganization"></span></p>
+                <p><strong>Submission Date:</strong> <span id="outTimestamp"></span></p>
+            </div>
+            <a href="index.html" class="thankyou-card-button">Return to Home</a>
+        </section>
+    </main>
+        <footer>
+        <div class="footer-box left">
+            <p>Aracaju - Chamber of Commerce</p>
+            <p>Rua José Francisco, Ponto Novo, 100</p>
+            <p>Aracaju, SE - 49091-710</p>
+            <p>info@aracajuchamber.org</p>
+            <p>+55 (79) 3226-2300</p>
+        </div>
+        <div class="footer-box center">
+            <p>
+                <a href="https://www.facebook.com/victor.hugo.ferreira.574729" target="_blank">
+                    <img src="images/facebook_icon.svg" alt="Facebook" width="40" height="40">
+                </a>
+                <a href="https://www.instagram.com/victorr_h.ferreira/" target="_blank">
+                    <img src="images/instagram_icon.svg" alt="Instagram" width="40" height="40">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="images/youtube_icon.svg" alt="YouTube" width="40" height="40">
+                </a>
+            </p>
+        </div>
+        <div class="footer-box right">
+            <p>WDD231 Class Project</p>
+            <p>🌴 Victor Hugo Dos Santos Ferreira 🌴 Brazil</p>
+            <p>&copy; <span id="currentYear"></span> Aracaju - Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
