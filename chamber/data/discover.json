@@ -1,50 +1,50 @@
 [
     {
-        "name": "Itu Historic Center",
-        "address": "Praça Padre Miguel, Centro, Itu, SP",
-        "description": "The heart of Itu, featuring colonial architecture, charming streets, and vibrant local culture.",
-        "image": "images/itu-historic-center.webp"
+        "name": "Orla de Atalaia",
+        "address": "Atalaia, Aracaju, SE",
+        "description": "One of Aracaju's most famous beaches, with beautiful landscapes, restaurants, and leisure options by the sea.",
+        "image": "images/orla-atalaia.jpg"
     },
     {
-        "name": "Itu City Park",
-        "address": "Av. Itu 400 Anos, Itu, SP",
-        "description": "A large green space with walking trails, playgrounds, and picnic areas for families and visitors.",
-        "image": "images/itu-city-park.webp"
+        "name": "Aracaju Municipal Market",
+        "address": "Rua Senhor dos Passos, Centro, Aracaju, SE",
+        "description": "A traditional market where you can find handicrafts, typical foods, and local products from Sergipe.",
+        "image": "images/mercado-municipal-aracaju.webp"
     },
     {
-        "name": "Republic Square",
-        "address": "Praça da República, Centro, Itu, SP",
-        "description": "A lively square surrounded by shops, cafes, and historic landmarks, perfect for a stroll.",
-        "image": "images/republic-square.webp"
+        "name": "Museu da Gente Sergipana (Museum of Sergipe's People)",
+        "address": "Praça General Valadão, Centro, Aracaju, SE",
+        "description": "An interactive museum that celebrates the culture and history of Sergipe in an engaging and educational way.",
+        "image": "images/museu-gente-sergipana.webp"
     },
     {
-        "name": "Itu Giant Phone",
-        "address": "Praça Padre Miguel, Centro, Itu, SP",
-        "description": "A quirky and famous oversized phone booth, a must-see photo spot in Itu.",
-        "image": "images/giant-phone.webp"
+        "name": "Pirambu Cashew Tree",
+        "address": "Pirambu, SE",
+        "description": "A gigantic cashew tree, considered the largest in the world, forming a true forest under its leaves.",
+        "image": "images/cajueiro-pirambu.webp"
     },
     {
-        "name": "Museu Republicano",
-        "address": "Rua Barão do Itaim, 67, Centro, Itu, SP",
-        "description": "A museum dedicated to the history of the Brazilian Republic, located in a beautiful historic building.",
-        "image": "images/museu-republicano.webp"
+        "name": "Church of São José do Rio Preto",
+        "address": "Praça São José, Rio Preto, Aracaju, SE",
+        "description": "A beautiful 18th-century baroque church, with imposing architecture and a peaceful atmosphere.",
+        "image": "images/igreja-sao-jose-rio-preto.jpg"
     },
     {
-        "name": "Itu Cathedral",
-        "address": "Praça Padre Anchieta, Centro, Itu, SP",
-        "description": "A stunning cathedral with impressive architecture and a peaceful atmosphere.",
-        "image": "images/itu-cathedral.webp"
+        "name": "Praia do Saco Beach",
+        "address": "Pirambu, SE",
+        "description": "One of the most tranquil and beautiful beaches in Sergipe, with calm waters, great for relaxing.",
+        "image": "images/praia-do-saco.jpg"
     },
     {
-        "name": "Varvito Park",
-        "address": "Av. do Parque, Itu, SP",
-        "description": "A geological park showcasing unique rock formations and educational trails.",
-        "image": "images/varvito-park.webp"
+        "name": "Jeremoabo National Park",
+        "address": "Jeremoabo, SE",
+        "description": "An environmental protection area with rich biodiversity and trails for ecotourism.",
+        "image": "images/parque-jeremoabo.webp"
     },
     {
-        "name": "Itu Water Tower",
-        "address": "Av. Prudente de Moraes, Itu, SP",
-        "description": "An iconic water tower and symbol of Itu, offering great views and photo opportunities.",
-        "image": "images/water-tower.webp"
+        "name": "Orla Arches",
+        "address": "Orla de Atalaia, Aracaju, SE",
+        "description": "An imposing monument on the waterfront, perfect for photos, symbolizing Aracaju's progress and beauty.",
+        "image": "images/arcos-orla.jpg"
     }
 ]
