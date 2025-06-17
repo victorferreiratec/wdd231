@@ -14,6 +14,10 @@
     align-items: center;
     padding: 1rem 5vw;
     background: var(--color2);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    width: 100%;
 }
 
 .logo-title {
