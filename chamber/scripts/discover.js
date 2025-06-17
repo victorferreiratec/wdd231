@@ -35,7 +35,7 @@ function loadDiscoverCards() {
                 card.innerHTML = `
           <h2>${item.name}</h2>
           <div class="card-content">
-            <figure><img src="${item.image}" alt="${item.name}" width="200" height="140" loading="lazy"></figure>
+            <figure><img src="${item.image}" alt="${item.name}" width="200" height="140"></figure>
             <div class="card-info">
               <address>${item.address}</address>
               <p>${item.description}</p>
