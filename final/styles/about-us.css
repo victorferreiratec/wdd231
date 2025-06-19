@@ -141,7 +141,7 @@ main {
 
 .team-member-card .title {
     font-size: 1.1em;
-    color: var(--color6);
+    color: purple;
     margin-bottom: 15px;
     font-weight: 600;
 }
