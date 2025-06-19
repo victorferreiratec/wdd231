@@ -31,7 +31,7 @@ main {
     line-height: 1.8;
     max-width: 800px;
     margin-bottom: 15px;
-    color: var(--color7);
+    color: var(--color1);
 }
 
 .thank-you-section p:last-of-type {
