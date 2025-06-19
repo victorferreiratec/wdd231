@@ -1,0 +1,155 @@
+:root {
+    --color1: #070006;
+    --color2: #d100928f;
+    --color3: #dddddd;
+    --color4: #ffffff;
+    --color5: #f81daf;
+    --color6: #8f8f8f;
+    --color7: #3f3f3f;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    padding: 60px 40px;
+    gap: 50px;
+    align-items: center;
+    background-color: var(--color4); /* Hero section background (white) */
+    border-bottom: 1px solid var(--color3); /* Light gray border */
+}
+
+.hero-content {
+    flex: 2;
+}
+
+.hero-content p.tagline {
+    font-size: 1.2em;
+    color: var(--color6); /* Tagline with medium gray */
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: var(--color1); /* Main title with dark teal */
+    line-height: 1.1;
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    color: var(--color7); /* Paragraph text with dark gray */
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: var(--color1); /* Main button with dark teal */
+    color: var(--color4); /* White text on button */
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero-button:hover {
+    background-color: var(--color2); /* Main button hover with vibrant cyan */
+    transform: translateY(-2px);
+}
+
+.hero-image {
+    flex: 1.5;
+    min-height: 350px;
+    background-color: var(--color3); /* Image placeholder (light gray) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    min-height: 350px;
+}
+
+/* Call to Action Section */
+.call-to-action-section {
+    padding: 60px 40px;
+    border-top: 1px solid var(--color3); /* Light gray border */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    background-color: var(--color4); /* CTA section background (white) */
+}
+
+.cta-item {
+    background-color: var(--color4); /* CTA item background (white) */
+    border: 1px solid var(--color3); /* Light gray border */
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cta-item h3 {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--color1); /* CTA title with dark teal */
+}
+
+.cta-item .cta-image {
+    background-color: var(--color3); /* CTA image placeholder (light gray) */
+    min-height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cta-item .cta-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    min-height: 200px;
+}
+
+
+.cta-item p {
+    font-size: 1.3em;
+    color: var(--color7); /* CTA text (dark gray) */
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: var(--color4);
+}
+
+button:hover{
+    background-color: var(--color1);
+    color: var(--color5);
+    font-weight: bold;
+}
