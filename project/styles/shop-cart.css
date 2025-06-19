@@ -2,31 +2,31 @@
 .cart-icon-container {
     position: relative;
     cursor: pointer;
-    color: var(--color1); /* Cor do ícone do carrinho herdada pelo SVG */
-    margin-left: 20px; /* Espaço entre a navegação e o ícone */
+    color: var(--color1); /* Cart icon color inherited by SVG */
+    margin-left: 20px; /* Space between navigation and icon */
     display: flex;
     align-items: center;
-    width: 30px;   /* Defina a largura desejada para o seu ícone */
-    height: 30px;  /* Defina a altura desejada para o seu ícone */
+    width: 30px; /* Set the desired width for your icon */
+    height: 30px; /* Set the desired height for your icon */
 }
 
 .cart-icon-container svg {
-    width: 100%; /* Ocupa 100% da largura do container */
-    height: 100%; /* Ocupa 100% da altura do container */
-    display: block; /* Garante que o SVG não tenha espaço extra de linha */
+    width: 100%; /* Occupies 100% of the container width */
+    height: 100%; /* Occupies 100% of the container height */
+    display: block; /* Ensures SVG has no extra line space */
 }
 
 .cart-count {
     position: absolute;
     top: -5px;
     right: -10px;
-    background-color: var(--color5); /* Cor vibrante para o contador */
+    background-color: var(--color5); /* Vibrant color for the counter */
     color: var(--color1);
     border-radius: 50%;
     padding: 3px 8px;
     font-size: 0.7em;
     font-weight: bold;
-    min-width: 20px; /* Garante que o círculo seja visível mesmo com 1 dígito */
+    min-width: 20px; /* Ensures the circle is visible even with 1 digit */
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -43,8 +43,8 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    visibility: hidden; /* Escondido por padrão */
-    opacity: 0; /* Escondido por padrão */
+    visibility: hidden; /* Hidden by default */
+    opacity: 0; /* Hidden by default */
     transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
@@ -61,7 +61,7 @@
     width: 90%;
     max-width: 500px;
     position: relative;
-    max-height: 80vh; /* Altura máxima para rolagem */
+    max-height: 80vh; /* Maximum height for scrolling */
     display: flex;
     flex-direction: column;
 }
@@ -73,7 +73,7 @@
     background: none;
     border: none;
     font-size: 2em;
-    color: var(--color6); /* Cor mais suave para o botão de fechar */
+    color: var(--color6); /* Softer color for the close button */
     cursor: pointer;
     transition: color 0.2s ease;
 }
@@ -90,9 +90,9 @@
 }
 
 .cart-items {
-    flex-grow: 1; /* Permite que esta área ocupe o espaço restante */
-    overflow-y: auto; /* Adiciona barra de rolagem se o conteúdo for muito longo */
-    padding-right: 10px; /* Espaço para a barra de rolagem */
+    flex-grow: 1; /* Allows this area to occupy remaining space */
+    overflow-y: auto; /* Adds scrollbar if content is too long */
+    padding-right: 10px; /* Space for the scrollbar */
 }
 
 .empty-cart-message {
@@ -145,7 +145,7 @@
     align-items: center;
     gap: 8px;
     margin-left: 15px;
-    white-space: nowrap; /* Impede quebrar linha */
+    white-space: nowrap; /* Prevents line break */
 }
 
 .quantity-btn {
@@ -180,14 +180,14 @@
 
 .quantity-input::-webkit-outer-spin-button,
 .quantity-input::-webkit-inner-spin-button {
-    -webkit-appearance: none; /* Remove setas em Chrome/Safari */
+    -webkit-appearance: none; /* Removes arrows in Chrome/Safari */
     margin: 0;
 }
 
 .remove-item-btn {
     background-color: transparent;
     border: none;
-    color: #dc3545; /* Vermelho para remover */
+    color: #dc3545; /* Red for remove */
     font-size: 0.9em;
     cursor: pointer;
     margin-top: 5px;
@@ -247,7 +247,7 @@
 /* Responsive adjustments for shop.css */
 @media (max-width: 700px) {
     .cart-icon-container {
-        width: 25px; /* Tamanho menor em telas pequenas */
+        width: 25px; /* Smaller size on small screens */
         height: 25px;
         margin-left: 10px;
     }
@@ -276,7 +276,7 @@
     }
 
     .cart-item {
-        flex-wrap: wrap; /* Permite que os itens do carrinho quebrem linha */
+        flex-wrap: wrap; /* Allows cart items to wrap lines */
         margin-bottom: 15px;
         padding-bottom: 10px;
     }
@@ -288,15 +288,15 @@
     }
 
     .cart-item-details {
-        flex-basis: calc(100% - 75px); /* Ocupa o restante da largura */
+        flex-basis: calc(100% - 75px); /* Occupies remaining width */
         margin-right: 0;
     }
 
     .cart-item-quantity {
         margin-top: 10px;
         margin-left: 0;
-        width: 100%; /* Ocupa a largura total para os botões de quantidade */
-        justify-content: flex-end; /* Alinha à direita */
+        width: 100%; /* Occupies full width for quantity buttons */
+        justify-content: flex-end; /* Aligns to the right */
     }
 
     .quantity-btn {
@@ -312,7 +312,7 @@
 
     .remove-item-btn {
         margin-top: 0;
-        margin-left: 10px; /* Espaçamento entre o input e o botão remover */
+        margin-left: 10px; /* Spacing between input and remove button */
     }
 
     .cart-summary {
