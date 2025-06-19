@@ -14,14 +14,11 @@
     <meta property="og:type" content="website">
 
     <title>Menu - The King of Açaí Aju</title>
- 
+    
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-responsive.css">
     <link rel="stylesheet" href="styles/shop.css">
-    <link rel="stylesheet" href="styles/shop-cart.css">
-
-
-    <script src="scripts/menu.js" defer></script>
+    <link rel="stylesheet" href="styles/shop-cart.css"> <script src="scripts/menu.js" defer></script>
     <script src="../scripts/getdates.js" defer></script>
     <script src="scripts/shop.js" defer></script>
 
@@ -44,7 +41,9 @@
                 </ul>
             </nav>
             <div class="cart-icon-container" id="cartIcon">
-                <i class="fas fa-shopping-cart"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="currentColor">
+                    <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H200.4c-35.1 0-64.8-26.9-69.5-62.9L108.6 124.7 17.5 73.6C10 70.2 0 75.5 0 84V24zm176 352a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm336 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
+                </svg>
                 <span id="cart-count" class="cart-count">0</span>
             </div>
             <div class="hamburger" id="hamburgerButton">
@@ -61,20 +60,20 @@
         </div>
 
         <div class="acai-menu-grid">
-        </div>
+            </div>
     </main>
 
     <div class="cart-modal-overlay" id="cartModalOverlay">
         <div class="cart-modal">
-            <button class="close-cart-btn" id="closeCartBtn">&times;</button>
+            <button class="close-cart-btn" id="closeCartBtn">X</button>
             <h2>Your Cart</h2>
             <div class="cart-items" id="cartItemsContainer">
                 <p class="empty-cart-message">Your cart is empty. Add some delicious açaí bowls!</p>
             </div>
             <div class="cart-summary">
-                <p>Subtotal: <span id="cartSubtotal">R$ 0.00</span></p>
-                <p>Tax (5%): <span id="cartTax">R$ 0.00</span></p>
-                <p>Total: <span id="cartTotal">R$ 0.00</span></p>
+                <p>Subtotal: <span id="cartSubtotal">$ 0.00</span></p>
+                <p>Tax (5%): <span id="cartTax">$ 0.00</span></p>
+                <p>Total: <span id="cartTotal">$ 0.00</span></p>
             </div>
             <button class="checkout-btn" id="checkoutBtn">Proceed to Checkout</button>
         </div>

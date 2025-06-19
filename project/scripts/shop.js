@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('acai-card');
 
             card.innerHTML = `
-                <img src="${product.image}" alt="${product.name} loading="lazy">
+                <img src="${product.image}" alt="${product.name}" loading="lazy">
                 <div class="acai-card-content">
                     <h3>${product.name}</h3>
                     <p class="ingredients">${product.ingredients}</p>
