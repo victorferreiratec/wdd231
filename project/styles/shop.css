@@ -1,0 +1,148 @@
+/* General layout for shop page */
+.shop-main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--color2); /* Usando uma das cores da sua paleta */
+    color: var(--color4); /* Cor do texto no hero da loja */
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.menu-hero h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    color: var(--color1); /* Cor mais escura para o título */
+}
+
+.menu-hero p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: var(--color1);
+}
+
+/* Açaí Menu Grid */
+.acai-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsivo para 280px de largura mínima */
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+/* Individual Açaí Card */
+.acai-card {
+    background-color: var(--color4); /* Fundo branco para os cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.acai-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.acai-card img {
+    width: 100%;
+    height: 200px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    border-bottom: 1px solid var(--color3);
+}
+
+.acai-card-content {
+    padding: 20px;
+    flex-grow: 1; /* Permite que o conteúdo se expanda */
+    display: flex;
+    flex-direction: column;
+}
+
+.acai-card-content h3 {
+    font-size: 1.8em;
+    color: var(--color1);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.acai-card-content .ingredients {
+    font-size: 0.95em;
+    color: var(--color7); /* Cor de texto mais suave para os ingredientes */
+    line-height: 1.4;
+    margin-bottom: 15px;
+    flex-grow: 1; /* Permite que os ingredientes ocupem o espaço disponível */
+}
+
+.acai-card-content .price {
+    font-size: 1.6em;
+    color: var(--color5); /* Cor vibrante para o preço */
+    font-weight: 900;
+    margin-top: auto; /* Empurra o preço para baixo */
+    margin-bottom: 15px;
+}
+
+.acai-card-content .buy-button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: var(--color5); /* Cor principal do botão */
+    color: var(--color4); /* Texto branco */
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.acai-card-content .buy-button:hover {
+    background-color: #e6008b; /* Um pouco mais escuro no hover */
+}
+
+
+/* Responsive adjustments for shop.css */
+@media (max-width: 700px) {
+    .menu-hero h1 {
+        font-size: 2.2em;
+    }
+
+    .menu-hero p {
+        font-size: 1em;
+    }
+
+    .acai-menu-grid {
+        grid-template-columns: 1fr; /* Uma coluna em telas menores */
+        padding: 0 10px 30px; /* Ajusta o padding */
+    }
+
+    .acai-card {
+        margin-bottom: 20px; /* Espaçamento entre cards em mobile */
+    }
+
+    .acai-card img {
+        height: 180px;
+    }
+
+    .acai-card-content h3 {
+        font-size: 1.6em;
+    }
+
+    .acai-card-content .price {
+        font-size: 1.4em;
+    }
+
+    .acai-card-content .buy-button {
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+}

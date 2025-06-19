@@ -1,0 +1,44 @@
+[
+    {
+        "id": "classic_bowl",
+        "name": "Classic Açaí Bowl",
+        "ingredients": "Pure açaí base, granola, banana slices, honey, strawberry and blueberries.",
+        "price": 7.99,
+        "image": "images/acai-classic.webp"
+    },
+    {
+        "id": "tropical_delight",
+        "name": "Tropical Delight",
+        "ingredients": "Base of açaí, granola, mango, coconut flakes, kiwi and strawberry.",
+        "price": 8.50,
+        "image": "images/acai-tropical.webp"
+    },
+    {
+        "id": "berry_blast",
+        "name": "Berry Blast",
+        "ingredients": "Açaí base, mixed berries (strawberry, blueberry, raspberry), chia seeds, agave.",
+        "price": 7.00,
+        "image": "images/acai-berry.webp"
+    },
+    {
+        "id": "nutty_dream",
+        "name": "Nutty Dream",
+        "ingredients": "Açaí base, peanut butter, chopped almonds, cashews, chocolate chips.",
+        "price": 9.99,
+        "image": "images/acai-nutty.webp"
+    },
+    {
+        "id": "green_power",
+        "name": "Green Power Açaí",
+        "ingredients": "Base of açaí, kiwi, green grape, green apple and coconut water.",
+        "price": 11.00,
+        "image": "images/acai-green.webp"
+    },
+    {
+        "id": "sergipano_special",
+        "name": "Sergipano Special",
+        "ingredients": "Acai base, local fruit (cashew), strawberry, granola, pineapple, papaya, condensed milk.",
+        "price": 15.50,
+        "image": "images/acai-sergipano.webp"
+    }
+]
