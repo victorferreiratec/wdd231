@@ -79,6 +79,12 @@
 }
 
 /* Call to Action Section */
+
+h2{
+    font-size: xx-large;
+   padding-bottom: 20px;
+}   
+
 .call-to-action-section {
     padding: 60px 40px;
     border-top: 1px solid var(--color3); /* Light gray border */
