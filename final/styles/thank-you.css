@@ -69,7 +69,21 @@ main {
 }
 
 /* Buttons */
-.btn-back-home, .btn-check-menu {
+.btn-back-home {
+    display: inline-block;
+    background-color: var(--color5); /* Vibrant pink */
+    color: var(--color1); /* White text */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px;
+}
+
+.btn-check-menu {
     display: inline-block;
     background-color: var(--color5); /* Vibrant pink */
     color: var(--color4); /* White text */
