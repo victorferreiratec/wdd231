@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about the story and the passionate team behind The King of Açaí Aju, dedicated to bringing the best açaí to Aracaju.">
+    <meta name="author" content="Victor Hugo Ferreira">
+
+    <meta property="og:title" content="Our Story - The King of Açaí Aju">
+    <meta property="og:description" content="Learn about the story and the passionate team behind The King of Açaí Aju, dedicated to bringing the best açaí to Aracaju.">
+    <meta property="og:image" content="https://victorferreiratec.github.io/wdd231/project/images/logo.png">
+    <meta property="og:url" content="https://victorferreiratec.github.io/wdd231/project/about-us.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+
+    <title>Our Story - The King of Açaí Aju</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-responsive.css">
+    <link rel="stylesheet" href="styles/about-us.css"> 
+    <script src="scripts/menu.js" defer></script>
+    <script src="../scripts/getdates.js" defer></script>
+    <script src="scripts/about-us.js" defer></script> 
+    
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"> <img src="images/logo.webp" alt="The King of Açaí Aju logo" width="150" height="130"></div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Menu</a></li>
+                    <li><a href="about-us.html" class="active">Our Story</a></li>
+                    <li><a href="contect-us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburgerButton">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section class="about-us-hero">
+            <h1>Our Journey: The King of Açaí Aju</h1>
+            <p>From a simple idea to the freshest açaí in Aracaju, discover what drives us.</p>
+        </section>
+
+        <section class="story-section">
+            <h2>Our Passionate Journey: From Amazon to Aracaju</h2>
+            <p>The King of Açaí Aju isn't just a business; it's a dream born from the vibrant heart of the Amazon. Our founder,<strong>Sofia Rodrigues</strong>, grew up with the taste of fresh açaí, a staple of her childhood visits to the Amazon rainforest. She cherished the energy and unique flavor of the berry, but often found it challenging to find genuinely authentic and high-quality açaí bowls outside its native region.</p>
+            <p>Driven by this longing and a desire to share a piece of her heritage, Sofia embarked on a mission. She envisioned a place in Aracaju where the true essence of açaí could be celebrated - a place that honored the fruit's purity, its health benefits, and the rich culture it represents, <strong>served in the perfect consistency</strong>, creamy and chilled, just like real ice cream. In <strong>2019</strong> after extensive research and direct partnerships with sustainable family farms in Pará, the first seed of The King of Açaí Aju was planted.</p>
+            <p>Our journey began with a simple philosophy: <strong>quality above all.</strong> We committed to sourcing only the finest, unsweetened açaí pulp, ensuring that every spoonful delivers the authentic, earthy taste of the Amazon. We meticulously crafted our recipes, blending traditional Brazilian methods with a touch of modern creativity to offer a diverse menu that caters to every palate, from classic bowls to innovative combinations with fresh, locally sourced fruits, crunchy granola, and premium toppings. The perfect creaminess and ideal temperature are our secret to ensuring every açaí bowl is a refreshing and unforgettable experience, <strong>delightfully cold, exactly like a gourmet ice cream.</strong></p>
+            <p>Over the years, what started as a humble endeavor has blossomed into a beloved community spot. We've had the immense pleasure of seeing our passion resonate with the wonderful people of Aracaju, who have embraced our commitment to freshness, health, and flavor. Every smile we see, every positive comment we receive, fuels our dedication to being the true <strong>'King' of Açaí.</strong> We believe in creating not just delicious food, but also memorable experiences, fostering a space where you can relax, recharge, and enjoy the pure taste of Brazil. Thank you for being a part of our story!</p>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet Our Dedicated Team</h2>
+            <p>Behind every delicious bowl is a team committed to quality and your satisfaction. Get to know the faces that make The King of Açaí Aju special!</p>
+            <div class="team-grid" id="teamGrid">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-box left">
+            <p><strong>The King of Açaí Aju</strong></p>
+            <p>Rua José Francisco, Ponto Novo, 100</p>
+            <p>Aracaju, SE - 49091-710</p>
+            <p>info@kingacai.org</p>
+        </div>
+        <div class="footer-box center">
+            <p>
+                <a href="https://www.facebook.com/victor.hugo.ferreira.574729" target="_blank">
+                    <img src="../chamber/images/facebook_icon.svg" alt="Facebook" width="40" height="40">
+                </a>
+                <a href="https://www.instagram.com/victorr_h.ferreira/" target="_blank">
+                    <img src="../chamber/images/instagram_icon.svg" alt="Instagram" width="40" height="40">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="../chamber/images/youtube_icon.svg" alt="YouTube" width="40" height="40">
+                </a>
+            </p>
+        </div>
+        <div class="footer-box right">
+            <a class="wireframe" href="https://wireframe.cc/xx2B4x">Wireframe</a>
+            <p>🌴 Victor Hugo Dos Santos Ferreira 🌴 Brazil</p>
+            <p>© <span id="currentYear"></span> The King of Açaí Aju</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html> 

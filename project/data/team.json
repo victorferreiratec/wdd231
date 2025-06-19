@@ -1,0 +1,23 @@
+[
+    {
+        "id": "owner-1",
+        "name": "Sofia Rodrigues",
+        "title": "Founder & CEO",
+        "description": "Maria's dream of bringing authentic Amazonian açaí to Aracaju became a reality with The King of Açaí Aju. Her passion for quality and healthy living drives the company's vision.",
+        "image": "images/owner.webp"
+    },
+    {
+        "id": "partner-1",
+        "name": "João Santos",
+        "title": "Head of Operations",
+        "description": "With a keen eye for logistics and a commitment to efficiency, João ensures that every ingredient is fresh and every operation runs smoothly, from sourcing to serving.",
+        "image": "images/partner1.webp"
+    },
+    {
+        "id": "partner-2",
+        "name": "Carolina Souza",
+        "title": "Creative Director",
+        "description": "Carolina is the artistic mind behind our delightful bowl presentations and engaging customer experience. Her creativity adds a unique flair to every aspect of our brand.",
+        "image": "images/partner2.webp"
+    }
+]
