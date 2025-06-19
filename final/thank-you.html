@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore our delicious menu of açaí bowls and tropical delights at The King of Açaí Aju.">
+    <meta name="description" content="Thank you for your submission to The King of Açaí Aju!">
     <meta name="author" content="Victor Hugo Ferreira">
 
-    <meta property="og:title" content="Our Menu - The King of Açaí Aju">
-    <meta property="og:description" content="Explore our delicious menu of açaí bowls and tropical delights at The King of Açaí Aju.">
+    <meta property="og:title" content="Thank You - The King of Açaí Aju">
+    <meta property="og:description" content="Thank you for your submission to The King of Açaí Aju!">
     <meta property="og:image" content="https://victorferreiratec.github.io/wdd231/project/images/logo.png">
-    <meta property="og:url" content="https://victorferreiratec.github.io/wdd231/project/shop.html">
+    <meta property="og:url" content="https://victorferreiratec.github.io/wdd231/project/thank-you.html">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="website">
 
-    <title>Menu - The King of Açaí Aju</title>
-    
+    <title>Thank You! - The King of Açaí Aju</title>
+
+    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/base-responsive.css">
-    <link rel="stylesheet" href="styles/shop.css">
-    <link rel="stylesheet" href="styles/shop-cart.css"> <script src="scripts/menu.js" defer></script>
+    <link rel="stylesheet" href="styles/thank-you.css"> 
+    
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/thank-you.js" defer></script> 
     <script src="../scripts/getdates.js" defer></script>
-    <script src="scripts/shop.js" defer></script>
 
     <link rel="icon" href="favicon.ico">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -35,17 +37,11 @@
             <nav id="mainNav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="shop.html" class="active">Menu</a></li>
+                    <li><a href="shop.html">Menu</a></li>
                     <li><a href="about-us.html">Our Story</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="contect-us.html">Contact Us</a></li>
                 </ul>
             </nav>
-            <div class="cart-icon-container" id="cartIcon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="currentColor">
-                    <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H200.4c-35.1 0-64.8-26.9-69.5-62.9L108.6 124.7 17.5 73.6C10 70.2 0 75.5 0 84V24zm176 352a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm336 0a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/>
-                </svg>
-                <span id="cart-count" class="cart-count">0</span>
-            </div>
             <div class="hamburger" id="hamburgerButton">
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -53,32 +49,23 @@
             </div>
         </header>
     </div>
-    <main class="shop-main">
-        <div class="menu-hero">
-            <h1>Our Delicious Açaí Bowls</h1>
-            <p>Explore our wide selection of fresh, energizing açaí creations and customize your perfect bowl!</p>
-        </div>
-
-        <div class="acai-menu-grid">
+    <main>
+        <section class="thank-you-section">
+            <h1>Thank You for Your Feedback!</h1>
+            <p>We truly appreciate you taking the time to share your thoughts with us.</p>
+            <p>Your submission helps us grow and improve **The King of Açaí Aju** experience.</p>
+            
+            <div class="submitted-info">
+                <h2>Here's what you submitted:</h2>
+                <p><strong>Name:</strong> <span id="submittedName"></span></p>
+                <p><strong>Email:</strong> <span id="submittedEmail"></span></p>
+                <p><strong>Suggestion:</strong> <span id="submittedSuggestion"></span></p>
             </div>
+
+            <a href="index.html" class="btn-back-home">Back to Home</a>
+            <a href="shop.html" class="btn-check-menu">Check Our Menu</a>
+        </section>
     </main>
-
-    <div class="cart-modal-overlay" id="cartModalOverlay">
-        <div class="cart-modal">
-            <button class="close-cart-btn" id="closeCartBtn">X</button>
-            <h2>Your Cart</h2>
-            <div class="cart-items" id="cartItemsContainer">
-                <p class="empty-cart-message">Your cart is empty. Add some delicious açaí bowls!</p>
-            </div>
-            <div class="cart-summary">
-                <p>Subtotal: <span id="cartSubtotal">$ 0.00</span></p>
-                <p>Tax (5%): <span id="cartTax">$ 0.00</span></p>
-                <p>Total: <span id="cartTotal">$ 0.00</span></p>
-            </div>
-            <button class="checkout-btn" id="checkoutBtn">Proceed to Checkout</button>
-        </div>
-    </div>
-
     <footer>
         <div class="footer-box left">
             <p><strong>The King of Açaí Aju</strong></p>

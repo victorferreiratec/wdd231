@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact The King of Açaí Aju in Aracaju, Brazil. Get in touch for suggestions, orders, and more!">
+    <meta name="author" content="Victor Hugo Ferreira">
+
+    <meta property="og:title" content="Contact Us - The King of Açaí Aju">
+    <meta property="og:description" content="Contact The King of Açaí Aju in Aracaju, Brazil. Get in touch for suggestions, orders, and more!">
+    <meta property="og:image" content="https://victorferreiratec.github.io/wdd231/project/images/logo.png">
+    <meta property="og:url" content="https://victorferreiratec.github.io/wdd231/project/contect-us.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+
+    <title>Contact Us - The King of Açaí Aju</title>
+
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base-responsive.css">
+    <link rel="stylesheet" href="styles/contact-us.css">
+
+
+    <script src="scripts/menu.js" defer></script>
+    <script src="scripts/contact-us.js" defer></script>
+    <script src="../scripts/getdates.js" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;0,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"> <img src="images/logo.webp" alt="The King of Açaí Aju logo" width="150" height="130"></div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Menu</a></li>
+                    <li><a href="about-us.html">Our Story</a></li>
+                    <li><a href="contect-us.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburgerButton">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section class="contact-hero">
+            <h1>Get in Touch with The King of Açaí Aju!</h1>
+            <p>We'd love to hear from you. Whether you have a question, a suggestion, or just want to say hi, feel free to reach out!</p>
+        </section>
+
+        <section class="contact-details">
+            <div class="contact-card">
+                <h2>Our Location</h2>
+                <div class="location-info">
+                    <p>Come visit us at our vibrant spot in Aracaju!</p>
+                    <p>Rua Campo do Brito, 345 - Grageru, Aracaju - SE, 49025-060</p>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.633215579222!2d-37.06019562590219!3d-10.93297079237279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a52327c52d8819%3A0x861338006e8b4e72!2sR.%20Campo%20do%20Brito%2C%20345%20-%20Grageru%2C%20Aracaju%20-%20SE%2C%2049025-060!5e0!3m2!1sen!2sbr!4v1718837107787!5m2!1sen!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <h2>Speak to Us Directly!</h2>
+                <div class="whatsapp-info">
+                    <p>Have a quick question or want to place an order? Chat with us on WhatsApp!</p>
+                    <a href="https://wa.me/557999887766" target="_blank" class="whatsapp-button">
+                        <img src="images/whatsapp_icon.svg" alt="WhatsApp Icon" width="24" height="24">
+                        <span>+55 79 99887-7665</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="suggestion-box">
+            <h2>Your Feedback Matters!</h2>
+            <p>Help us improve by sharing your suggestions and ideas.</p>
+            <form id="suggestionForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="suggestion">Suggestion/Improvement:</label>
+                <textarea id="suggestion" name="suggestion" rows="6" required></textarea>
+
+                <button type="submit">Submit Suggestion</button>
+            </form>
+            <div id="message" class="message"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-box left">
+            <p><strong>The King of Açaí Aju</strong></p>
+            <p>Rua Campo do Brito, 345 - Grageru</p>
+            <p>Aracaju - SE, 49025-060</p>
+            <p>info@kingacai.org</p>
+        </div>
+        <div class="footer-box center">
+            <p>
+                <a href="https://www.facebook.com/victor.hugo.ferreira.574729" target="_blank">
+                    <img src="../chamber/images/facebook_icon.svg" alt="Facebook" width="40" height="40">
+                </a>
+                <a href="https://www.instagram.com/victorr_h.ferreira/" target="_blank">
+                    <img src="../chamber/images/instagram_icon.svg" alt="Instagram" width="40" height="40">
+                </a>
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="../chamber/images/youtube_icon.svg" alt="YouTube" width="40" height="40">
+                </a>
+            </p>
+        </div>
+        <div class="footer-box right">
+            <a class="wireframe" href="https://wireframe.cc/xx2B4x">Wireframe</a>
+            <p>🌴 Victor Hugo Dos Santos Ferreira 🌴 Brazil</p>
+            <p>© <span id="currentYear"></span> The King of Açaí Aju</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
