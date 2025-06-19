@@ -169,7 +169,6 @@
     border-radius: 5px;
     padding: 5px 0;
     font-size: 1em;
-    -moz-appearance: textfield; /* Remove setas em Firefox */
 }
 
 .quantity-input::-webkit-outer-spin-button,

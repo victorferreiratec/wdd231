@@ -93,11 +93,11 @@
     display: block;
     width: 100%;
     padding: 12px 20px;
-    background-color: var(--color5); /* Cor principal do botão */
-    color: var(--color4); /* Texto branco */
+    background-color: var(--color4); /* Cor principal do botão */
+    color: var(--color1); /* Texto branco */
     text-align: center;
     text-decoration: none;
-    border: none;
+    border: 2px solid var(--color1);
     border-radius: 5px;
     font-size: 1.1em;
     font-weight: 900;
