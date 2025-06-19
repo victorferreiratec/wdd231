@@ -21,7 +21,7 @@
     top: -5px;
     right: -10px;
     background-color: var(--color5); /* Cor vibrante para o contador */
-    color: var(--color4);
+    color: var(--color1);
     border-radius: 50%;
     padding: 3px 8px;
     font-size: 0.7em;
@@ -229,7 +229,7 @@
     width: 100%;
     padding: 15px 25px;
     background-color: var(--color5);
-    color: var(--color4);
+    color: var(--color1);
     border: none;
     border-radius: 8px;
     font-size: 1.3em;
